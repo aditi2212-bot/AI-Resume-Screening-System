@@ -7,7 +7,7 @@ The AI Resume Screening System is an intelligent recruitment assistant that comp
 
 The application extracts text from resumes, identifies relevant technical skills, calculates keyword matching, computes semantic similarity using Sentence Transformers, and generates an interactive screening report through a modern Streamlit dashboard.
 
--Features
+ # Features
   - Upload Resume (PDF/DOCX)
   - Upload Job Description (TXT/PDF/DOCX)
   - Automatic Resume Parsing
@@ -19,7 +19,7 @@ The application extracts text from resumes, identifies relevant technical skills
   - Resume Recommendation
   - Download Screening Report
 
--Technologies Used
+ # Technologies Used
    - Python
    - Streamlit
    - Sentence Transformers
@@ -28,3 +28,40 @@ The application extracts text from resumes, identifies relevant technical skills
    - python-docx
    - Plotly
    - Pandas
+
+     
+ ## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/AI-Resume-Screening-System.git
+cd AI-Resume-Screening-System
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the application
+
+```bash
+streamlit run app.py
+```
+
+### 4. Open your browser
+
+Visit:
+
+```
+http://localhost:8501
+```
+
+### 5. Upload
+
+- Job Description (.txt/.pdf/.docx)
+- Resume (.pdf/.docx)
+
+Click **Analyze** to view the AI screening report.
