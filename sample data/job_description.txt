@@ -1,0 +1,19 @@
+Job Title: AI/ML Engineer
+
+Required Skills:
+Python
+Machine Learning
+Deep Learning
+SQL
+Pandas
+NumPy
+TensorFlow
+Docker
+AWS
+Git
+
+Responsibilities:
+Develop machine learning models.
+Deploy AI applications.
+Work with cloud platforms.
+Collaborate with cross-functional teams.
